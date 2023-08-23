@@ -7,11 +7,32 @@ import java.net.MalformedURLException;
 
 public class App {
     public void getGreeting() throws InterruptedException, MalformedURLException {
-        TestCases tests = new TestCases(); // Initialize your test class
+        //TestCases tests = new TestCases(); // Initialize your test class
+
+        Automate_nested_frames_text tests =  new Automate_nested_frames_text();
+
+        //Automate_search_amazon tests = new Automate_search_amazon();
+
+       //Automate_count_hyperlinks tests = new Automate_count_hyperlinks();
+
+       //Automate_post_on_linkedin tests = new Automate_post_on_linkedin();
+
+       //Automate_image_urls tests = new Automate_image_urls();
+
 
         //TODO: call your test case functions one after other here
 
-        tests.testCase01();
+        //tests.testCase01();
+
+        //tests.search_Amazon();
+
+       //tests.count_hyperlinks();
+
+       //tests.image_urls();
+
+       //tests.linkedinPost();
+
+       tests.frames_text();
 
         //END Tests
 
