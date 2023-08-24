@@ -19,6 +19,8 @@ public class App {
 
        //Automate_image_urls tests = new Automate_image_urls();
 
+       Automate_imdb_ratings testcases = new Automate_imdb_ratings();
+
 
         //TODO: call your test case functions one after other here
 
@@ -32,7 +34,9 @@ public class App {
 
        //tests.linkedinPost();
 
-       tests.frames_text();
+       //tests.frames_text();
+
+       testcases.imdb_ratings();
 
         //END Tests
 
