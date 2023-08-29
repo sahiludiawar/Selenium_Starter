@@ -19,7 +19,9 @@ public class App {
 
        //Automate_image_urls tests = new Automate_image_urls();
 
-       Automate_imdb_ratings testcases = new Automate_imdb_ratings();
+       //Automate_imdb_ratings testcases = new Automate_imdb_ratings();
+
+       Automate_window_handle windowTestCase = new Automate_window_handle();
 
 
         //TODO: call your test case functions one after other here
@@ -36,7 +38,9 @@ public class App {
 
        //tests.frames_text();
 
-       testcases.imdb_ratings();
+       //testcases.imdb_ratings();
+
+       windowTestCase.window_handle();
 
         //END Tests
 
